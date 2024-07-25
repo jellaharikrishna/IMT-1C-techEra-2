@@ -1,0 +1,64 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app-container {
+  margin: 30px;
+}
+
+.courses-heading {
+  color: #1e293b;
+  font-family: Roboto;
+  margin-bottom: 40px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-image {
+  width: 80%;
+}
+
+.failure-heading {
+  color: #475569;
+  font-family: Roboto;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.failure-description {
+  color: #64748b;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.failure-retry-btn {
+  height: 35px;
+  width: 100px;
+  background-color: #4656a1;
+  border-radius: 5px;
+  border-width: 0;
+  color: #ffffff;
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-image {
+    width: 40%;
+  }
+}

@@ -1,0 +1,28 @@
+.list-link {
+  text-decoration: none;
+}
+.list-card {
+  margin-bottom: 50px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  width: 155px;
+}
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.logo-name {
+  font-family: Roboto;
+  font-weight: bold;
+  color: #475569;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-card {
+    width: 170px;
+  }
+}
